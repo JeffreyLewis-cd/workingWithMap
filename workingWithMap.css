@@ -1,0 +1,407 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px"微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+a{color:#2d374b;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+
+
+/**登录****************************************************************************/
+.loginPage{
+    margin:0;
+    padding-top:100px;
+    width:100%;
+    background-color: #3D4A5D;
+}
+.loginContent{
+    margin:0 auto;
+}
+
+h1{
+    font-size: 33px!important;
+}
+h4{
+    font-size: 17px;
+}
+.loginHead{
+    color: #F9EDB2;
+    margin:0 auto;
+    text-align: center;
+    padding:15px;
+}
+.loginForm{
+    width: 360px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding:30px;
+    margin:0 auto;
+}
+.formTitle{
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 23px;
+    font-weight:300;
+}
+.loginFormInner .input-group{
+    margin-bottom: 10px;
+}
+.checkbox{
+    height:30px;
+}
+.loginBottom{
+    height:10px;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: -20px;
+}
+.loginFail{
+    display: none;
+}
+.loginAlerClose{
+    float: right;
+    cursor: pointer;
+}
+.loginCopyright{
+    color: #999999;
+    margin:10px auto;
+    width:170px;
+}
+.formError{
+    border:1px solid red;
+    border-radius: 5px;
+}
+.loginRed{
+    color: red;
+    display: none;
+}
+
+/**首页****************************************************************************/
+.homePageNav{
+    background:#1586D1;
+    margin:0 !important;
+    border:none !important;
+    border-radius: 0 !important;
+}
+.hPBrand{
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 22px !important;
+}
+
+.navBtns a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight:bold;
+}
+.hPContent{
+    background: #F7F7F7;
+    width:100%;
+}
+#arcgisMapContent{
+    width:97%;
+    height:100%;
+    float: right;
+}
+.hPContentLeftBar{
+    width:3%;
+    background: #6F7C81;
+    float: left;
+    text-align: center;
+}
+.hPContentLeftBarBtn{
+    height:40px;
+    line-height:40px;
+    color: #ffffff;
+    padding-top:5px;
+}
+.hPContentLeftBarBtn:hover{
+    background: #293436;
+}
+.hPContentLeftBarDetails{
+    width:0;
+    background: rgba(41,52,54,0.7);
+    position: absolute;
+    left:3%;
+    top:50px;
+    z-index: 1;
+}
+.hPCompanyName{
+    height:40px;
+    width:0;
+    line-height:40px;
+    color: #ffffff;
+    font-size: 18px;
+    /*display: none;*/
+    border-bottom: 1px solid #464848;
+    overflow: hidden;
+}
+.hPCompanyName:hover{
+    background: #4B5050;
+    cursor: pointer;
+}
+.hPCompanyName i{
+    height:40px;
+    width:40px;
+    background-size: cover;
+    display: block;
+    float: left;
+}
+.hPCompanyName span{
+    margin-left: 10%;
+    display: block;
+    float: left;
+}
+.sinopec i{
+    background-image: url("../img/sinopec01.png");
+}
+.petroChina i{
+    background-image: url("../img/petroChina01.png");
+}
+.shellChina i{
+    background-image: url("../img/shell01.png");
+}
+.secondLevel span{
+    margin-left: 40%;
+}
+.secondLevel {
+    height:40px;
+    line-height:40px;
+    color: #ffffff;
+    font-size: 18px;
+    display: none;
+    border-bottom: 1px solid #464848;
+
+}
+.secondLevel:hover{
+    background: #4B5050;
+    cursor: pointer;
+}
+
+/**区块公共容器*********************************/
+.block-container{
+    position: absolute;
+    width:100%;
+    background: rgba(255,227,139,0.6);
+    top:50px;
+    display: none;
+
+}
+
+
+/**区块详细信息*************************************************/
+.block-fulin {
+    width:100%;
+    background: #C3FFF1;
+    /*position: absolute;*/
+    /*top: 50px;*/
+}
+.block-container-leftBtns {
+    height:100%;
+    width:3%;
+    background: #EE94FF;
+    float: left;
+}
+.block-container-newPage{
+    /*height:100%;*/
+    /*width:97%;*/
+    background: #A9CFFF;
+    float: left;
+    border:none;
+}
+.block-container-backToMap {
+    width:100%;
+    cursor: pointer;
+    font-weight:bold;
+    height:40px;
+    line-height:40px;
+    border-bottom: 1px solid #3A3753 ;
+    text-align: center;
+}
+.block-container-backToMap:hover{
+    background: #C3FFC8;
+}
+.block-fulin-content {
+    width:97%;
+    height:100%;
+    float: left;
+}
+.block-fulin-content-head{
+    text-align: center;
+}
+.block-fulin-content-txt{
+    padding:0 20px;
+    font-size: 16px;
+}
+
+/**涪陵区块H5音频播放*************************************/
+.block-fulin-music-controls {
+    height: 38px ;
+    line-height: 38px ;
+    width:420px;
+    position: absolute;
+    bottom:10px;
+    right:10px;
+    border-radius:3px;
+    border:1px solid #ffffff;
+    /*overflow: hidden;*/
+    background: #353C46;
+}
+.block-fulin-music-play {
+    padding-left: 2px;
+    display: block;
+
+}
+.block-fulin-playOrpause i{
+    height:30px;
+    line-height:27px;
+    text-align: center;
+    width:30px;
+    border-radius: 15px;
+    border:2px solid #ffffff;
+    color: #ffffff;
+    position: absolute;
+    top:3px;
+    left:3px;
+}
+
+.block-fulin-playOrpause i:hover{
+    border:2px solid red;
+}
+.block-fulin-playOrpause .block-fulin-music-pause{
+    display: none;
+}
+.block-fulin-progress {
+    margin-left: 50px;
+    position: relative;
+    height:38px;
+    line-height:30px;
+    width: 200px;
+}
+progress {
+    width: 200px;
+    height:5px;
+    border: 1px solid #4927FF;
+    background-color:#e6e6e6;
+    color: #4927FF; /*IE10*/
+}
+
+progress::-moz-progress-bar { background: #4927FF; }
+progress::-webkit-progress-bar { background: #e6e6e6; }
+progress::-webkit-progress-value  { background: #4927FF; }
+
+.block-fulin-playCircle {
+    color:#4927FF;
+    position: absolute;
+    left:0;
+    top:10px;
+}
+.block-fulin-playCircle:hover{
+    color: #ffffff;
+}
+
+.block-fulin-time span{
+    color:#ffffff;
+}
+.block-fulin-progress:hover{
+    cursor: pointer;
+}
+.block-fulin-time {
+    height:25px;
+    width:120px;
+    position: absolute;
+    top:0;
+    left:280px
+}
+.block-fulin-vol {
+    height:38px;
+    width:38px;
+    text-align: center;
+    position: absolute;
+    top:0;
+    left:370px
+}
+.block-fulin-volume {
+    color: #ffffff;
+
+}
+.block-fulin-volume:hover{
+    font-size: 16px;
+}
+.block-fulin-vol-progress {
+    position: absolute;
+    top:12px;
+    width:100px;
+    height:5px !important;
+}
+.block-fulin-vol-circle {
+    height:13px;
+    width:13px;
+    background: #3434FF;
+    border-radius: 7px;
+    position: relative;
+    top:8px;
+    left:60px;
+}
+.block-fulin-vol-circle:hover{
+    background: #ffffff;
+}
+.block-fulin-vol-background {
+    background: #41332B;
+    transform:rotate(-90deg);
+    width:120px;
+    height:29px;
+    position: absolute;
+    top:-73px;
+    left:-40px;
+    display: none;
+}
+
+/**视频播放*********************************/
+#block-fulin-video {
+    position: absolute;
+    top:60px;
+    left:360px;
+}
+.block-fulin-rotatingEarth{
+    height: 500px;
+    width:1000px;
+}
+
+
+/**设备服务页面*************************************************/
+.equipment-service{
+    width:100%;
+    min-height:600px;
+    background: deepskyblue;
+}
+.empty-equipmentInput:hover{
+    color: #FF1821;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

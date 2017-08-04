@@ -1,0 +1,132 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px"微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+a{color:#2d374b;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+
+body{
+    overflow: hidden ;
+    height:100%;
+    width:100%;
+}
+
+ .stars-earth{
+     background-image: url("../img/stars.jpg") ;
+     background-size: cover;
+     width:100%;
+     height:600px;
+     overflow: hidden;
+     padding:0 !important;
+ }
+ #quakeCanvas{
+     /*background: #DAFDFF;*/
+     position: relative;
+     z-index: 2;
+     top:200px;
+     left:120px;
+     height:1511px;
+     width:4098px;
+     overflow: hidden ;
+     transition: top,left,height,width 6s, 6s, 6s, 6s linear, linear, linear, linear;
+     -moz-transition: top,left,height,width 6s, 6s, 6s, 6s linear, linear, linear, linear; /* Firefox 4 */
+     -webkit-transition: top,left,height,width 6s, 6s, 6s, 6s linear, linear, linear, linear; /* Safari 和 Chrome */
+     -o-transition: top,left,height,width 6s, 6s, 6s, 6s linear, linear, linear, linear; /* Opera */
+ }
+.moving-sun{
+    height:1500px;
+    width:1500px;
+    background-image: url("../img/movingSun.png");
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top:-900px;
+    left:-800px;
+    transition: top,left 16s, 16s linear, linear;
+    -moz-transition: top,left 16s, 16s linear, linear; /* Firefox 4 */
+    -webkit-transition: top,left 16s, 16s linear, linear; /* Safari 和 Chrome */
+    -o-transition: top,left 16s, 16s linear, linear; /* Opera */
+}
+.parallelogram-red{
+    position: absolute;
+    top:-400px;
+    right:-200px;
+    z-index: 3;
+    transition: top,right 5s, 5s linear, linear;
+    -moz-transition: top,right 5s, 5s linear, linear; /* Firefox 4 */
+    -webkit-transition: top,right 5s, 5s linear, linear; /* Safari 和 Chrome */
+    -o-transition: top,right 5s, 5s linear, linear; /* Opera */
+}
+.parallelogram-blue{
+    position: absolute;
+    right:100px;
+    bottom:-500px;
+    z-index: 4;
+    transition: bottom,right 3s, 3s linear, linear;
+    -moz-transition: bottom,right 3s, 3s linear, linear; /* Firefox 4 */
+    -webkit-transition: bottom,right 3s, 3s linear, linear; /* Safari 和 Chrome */
+    -o-transition: bottom,right 3s, 3s linear, linear; /* Opera */
+}
+.parallelogram-green{
+    position: absolute;
+    left:-500px;
+    bottom:-400px;
+    z-index: 5;
+    transition: bottom,left 3s, 3s linear, linear;
+    -moz-transition: bottom,left 3s, 3s linear, linear; /* Firefox 4 */
+    -webkit-transition: bottom,left 3s, 3s linear, linear; /* Safari 和 Chrome */
+    -o-transition: bottom,left 3s, 3s linear, linear; /* Opera */
+}
+.cctvC{
+    position: absolute;
+    height:300px;
+    width:750px;
+    left:1000px;
+    bottom:-300px;
+    z-index: 6;
+    transition: bottom,left 3s, 3s linear, linear;
+    -moz-transition: bottom,left 3s, 3s linear, linear; /* Firefox 4 */
+    -webkit-transition: bottom,left 3s, 3s linear, linear; /* Safari 和 Chrome */
+    -o-transition: bottom,left 3s, 3s linear, linear; /* Opera */
+
+}
+.cctvE{
+    position: absolute;
+    height:250px;
+    width:750px;
+    left:300px;
+    bottom:200px;
+    z-index: 6;
+    display: none;
+}
+.ChinaNewsCN{
+    height:300px;
+    width:750px;
+}
+.ChinaNews{
+    position: absolute;
+    height:200px;
+    width:750px;
+    left:300px;
+    top:-250px;
+    z-index: 7;
+    transition: bottom,left 2s, 2s linear, linear;
+    -moz-transition: bottom,left 2s, 2s linear, linear; /* Firefox 4 */
+    -webkit-transition: bottom,left 2s, 2s linear, linear; /* Safari 和 Chrome */
+    -o-transition: bottom,left 2s, 2s linear, linear; /* Opera */
+}
+.ChinaNewsPin{
+    height:300px;
+    width:750px;
+    margin-top: -150px;
+    display: none;
+}
+ .ChinaNewsPinPNG{
+    height:210px;
+    width:750px;
+    margin-top: -100px;
+    display: none;
+}
