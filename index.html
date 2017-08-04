@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录|模拟搬迁动态信息系统</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <link href="css/workingWithMap.css" type="text/css" rel="stylesheet">
+    <link href="plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+
+</head>
+<body class="loginPage">
+<div class="loginContent">
+    <div class="loginHead">
+        <h1>模拟搬迁动态信息系统</h1>
+        <h4>Simulated Moving Information System</h4>
+    </div>
+    <div class="loginForm">
+
+
+        <form class="loginFormInner">
+            <h3 class="formTitle">用户登录</h3>
+            <div class="alert alert-danger  loginFail " role="alert">
+                用户名或者密码错误！
+                <i class="fa fa-close loginAlerClose"></i>
+            </div>
+            <div class="form_control  input-group loginUserNameParent">
+                <span class="input-group-addon" > <i class="fa fa-user fa-fw faUserIcon"></i> </span>
+                <input type="text" class="form-control loginUserName" placeholder="userName" aria-describedby="basic-addon1" >
+            </div>
+            <div class="loginRed">请输入正确的用户名！</div>
+            <div class="form_control  input-group">
+                <span class="input-group-addon" id="basic-addon2"> <i class="fa fa-lock fa-fw faPwdIcon"></i> </span>
+                <input type="password" class="form-control loginPassword" placeholder="password" aria-describedby="basic-addon2">
+            </div>
+            <div class="loginRed">请输入正确的密码！</div>
+            <div class=" checkbox ">
+                <label>
+                    <input type="checkbox"  class="loginRemenber"> 记住我
+                </label>
+                <button type="button" class="btn btn-success pull-right loginBtn">登 &nbsp; 录 <i class="fa fa-arrow-circle-o-right fa-lg"></i> </button>
+            </div>
+        </form>
+        <div class="loginBottom"></div>
+    </div>
+    <div class="loginCopyright">
+        2017 © 青羊国投 版权所有
+    </div>
+</div>
+
+<script src="plugins/jQuery_3.1.1/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/login.js" type="text/javascript"></script>
+
+
+
+</body>
+</html>
